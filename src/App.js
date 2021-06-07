@@ -1,6 +1,6 @@
 
 import './App.css';
-import About from "./components/About.js"
+import About from "./components/About/index.js"
 import Nav from "./components/Nav"
 function App() {
   return (

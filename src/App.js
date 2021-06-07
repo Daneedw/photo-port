@@ -1,7 +1,7 @@
 
 import './App.css';
 import About from "./components/About.js"
-import Nav from "./components/Nav/Nav.js"
+import Nav from "./components/Nav"
 function App() {
   return (
     <div>

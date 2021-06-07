@@ -11,10 +11,10 @@ function ContactForm() {
 
   function handleChange(e) {
     if (e.target.name === "email") {
-      console.log("hello world!");
+
       const isValid = validateEmail(e.target.value);
       // isValid conditional statement
-      console.log(isValid);
+
       if (!isValid) {
         setErrorMessage("Your email is invalid.");
       } else {
@@ -44,7 +44,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      <h1 data-testid="contactMe">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
